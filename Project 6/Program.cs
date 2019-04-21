@@ -76,7 +76,7 @@ namespace Project_6
                             Console.WriteLine("Please enter the saleperson full name");
                             string name = Console.ReadLine(); //userinput's variable is "name"
                             int salesPersonIndex = 0;
-                            //declare userinput as an index. Give -1 as the index number since the zero index value in the fullName list starts at the first saleperson
+                            //declare userinput as an index. Give 0 as the index number since the zero index value in the fullName list starts at the first saleperson
                             for (int i = 0; i < fullName.Count; i++)
                             //the userinput's index will be equal to the fullname index and will loop through the List or array to find that person
                             {
